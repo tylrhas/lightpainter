@@ -3,7 +3,7 @@
 </template>
 <style>
 body {
-  background-color: #18121e;
+  background-color: #E6E7E4;
 }
 .row {
   margin: 0px;

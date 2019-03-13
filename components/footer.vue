@@ -1,9 +1,9 @@
 <template>
   <footer class="footer">
     <b-row>
-      <b-col class="p-4 pb-5 active"><formatPaint-icon fillColor="#984b43" /></b-col>
-      <b-col class="p-4 pb-5"><cloudUpload-icon fillColor="#984b43" /></b-col>
-      <b-col class="p-4 pb-5"><image-icon fillColor="#984b43" /></b-col>
+      <b-col class="p-4 active"><formatPaint-icon fillColor="#6592A7" /></b-col>
+      <b-col class="p-4"><cloudUpload-icon fillColor="#6592A7" /></b-col>
+      <b-col class="p-4"><image-icon fillColor="#6592A7" /></b-col>
     </b-row>
   </footer>
 </template>
@@ -17,21 +17,26 @@
   text-align: center;
 }
 .footer .row .col span {
-  padding: 28px;
+     padding: 20px 17px;
+}
+.p-4 {
+  padding: 2rem !important;
 }
 .footer .row .col.active span {
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  background-color: #18121e;
+  border-radius: 50%;
+  background-color: #6592A7;
+}
+.footer .row .col.active span svg {
+  fill: #edebe8 !important;
 }
 .footer {
-  background-color: #fefefe;
+  background-color: #515966;
   /* colors */
   /* 
-  18121e
-  233237
-  984b43
-  eac674
+  424249
+  e0dad5
+  edebe8
+  ff5e2c
    */
 }
 
